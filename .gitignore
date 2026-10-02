@@ -1,0 +1,6 @@
+# Temporary test files
+test_*
+*.tmp
+__pycache__/
+*.pyc
+.system_generated/

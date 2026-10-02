@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>八角神域：學園覺醒傳說 ── 16:9 日系動漫電影海報資訊圖表全集</title>
+  <!-- Google Fonts for cinematic styling -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Noto+Sans+TC:wght@400;700;900&family=Zen+Old+Mincho:wght@700;900&family=Teko:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #080b14;
+      --card-bg: rgba(15, 23, 42, 0.88);
+      --border-glow: rgba(56, 189, 248, 0.4);
+      --gold: #f59e0b;
+      --gold-glow: #fbbf24;
+      --neon-cyan: #06b6d4;
+      --neon-purple: #a855f7;
+      --neon-red: #ef4444;
+      --neon-green: #10b981;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --anime-font: 'Zen Old Mincho', 'Noto Sans TC', serif;
+      --hud-font: 'Teko', sans-serif;
+      --eng-title-font: 'Cinzel', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 50% 10%, rgba(30, 58, 138, 0.25) 0%, transparent 60%),
+        radial-gradient(circle at 10% 90%, rgba(136, 19, 55, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 90% 80%, rgba(13, 148, 136, 0.2) 0%, transparent 50%),
+        linear-gradient(to bottom, #050811, #0a0f1d);
+      color: var(--text-main);
+      font-family: 'Noto Sans TC', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Ambient Scanline */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.12) 0px,
+        rgba(0, 0, 0, 0.12) 1px,
+        transparent 1px,
+        transparent 3px
+      );
+      pointer-events: none;
+      z-index: 99;
+    }
+
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 30px 24px 80px 24px;
+    }
+
+    /* TOP DOWNLOAD BAR */
+    .top-action-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 14px 24px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      backdrop-filter: blur(10px);
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .top-action-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      color: var(--gold-glow);
+      font-size: 15px;
+    }
+
+    .top-btn-group {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn-pdf {
+      background: linear-gradient(135deg, #e11d48, #be123c);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 13.5px;
+      padding: 8px 18px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 0 15px rgba(225, 29, 72, 0.4);
+      transition: all 0.2s ease;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-pdf:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 25px rgba(225, 29, 72, 0.7);
+    }
+
+    .btn-pdf.secondary {
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      box-shadow: 0 0 15px rgba(2, 132, 199, 0.4);
+    }
+
+    .btn-pdf.secondary:hover {
+      box-shadow: 0 0 25px rgba(2, 132, 199, 0.7);
+    }
+
+    /* 16:9 THEATRICAL HERO */
+    .theatrical-hero-container {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      max-height: 620px;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 30px rgba(56, 189, 248, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      margin-bottom: 40px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .theatrical-hero-bg {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center 35%;
+      filter: brightness(0.95) contrast(1.08);
+      transition: transform 12s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .theatrical-hero-container:hover .theatrical-hero-bg {
+      transform: scale(1.04);
+    }
+
+    .theatrical-hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(5, 8, 17, 0.1) 0%,
+        rgba(5, 8, 17, 0.4) 50%,
+        rgba(5, 8, 17, 0.95) 100%
+      );
+      pointer-events: none;
+    }
+
+    .theatrical-hero-content {
+      position: relative; z-index: 5;
+      padding: 35px 45px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .hero-badge-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .theatrical-badge {
+      background: linear-gradient(135deg, #e11d48, #be123c);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 900;
+      padding: 5px 14px;
+      border-radius: 4px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      box-shadow: 0 0 15px rgba(225, 29, 72, 0.6);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .theatrical-badge.alt {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid var(--neon-cyan);
+      color: var(--neon-cyan);
+      box-shadow: 0 0 15px rgba(6, 182, 212, 0.4);
+    }
+
+    .hero-main-title {
+      font-family: var(--anime-font);
+      font-size: clamp(32px, 4.5vw, 56px);
+      font-weight: 900;
+      line-height: 1.15;
+      color: #ffffff;
+      text-shadow: 0 0 25px rgba(56, 189, 248, 0.8), 0 4px 10px rgba(0,0,0,0.9);
+      letter-spacing: 2px;
+    }
+
+    .hero-main-title span {
+      background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-sub-title {
+      font-family: var(--eng-title-font);
+      font-size: 16px;
+      color: var(--gold-glow);
+      letter-spacing: 4px;
+      margin-top: 6px;
+      text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+    }
+
+    .hero-synopsis {
+      max-width: 650px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #cbd5e1;
+      margin-top: 10px;
+      background: rgba(15, 23, 42, 0.6);
+      padding: 10px 16px;
+      border-left: 3px solid var(--neon-cyan);
+      border-radius: 0 8px 8px 0;
+      backdrop-filter: blur(8px);
+    }
+
+    .hero-action-panel {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 12px;
+    }
+
+    .btn-theatrical {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      color: #fff;
+      font-family: var(--hud-font);
+      font-size: 24px;
+      letter-spacing: 2px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 10px 28px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+      text-decoration: none;
+    }
+
+    .btn-theatrical:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 0 35px rgba(56, 189, 248, 0.8);
+      border-color: #fff;
+    }
+
+    /* SECTION TITLE WRAP */
+    .section-title-wrap {
+      text-align: center;
+      margin: 40px 0 25px 0;
+      position: relative;
+    }
+
+    .section-tag {
+      font-family: var(--hud-font);
+      font-size: 20px;
+      letter-spacing: 4px;
+      color: var(--neon-cyan);
+      text-transform: uppercase;
+    }
+
+    .section-h2 {
+      font-family: var(--anime-font);
+      font-size: 34px;
+      font-weight: 900;
+      color: #fff;
+      text-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+      margin-top: 4px;
+    }
+
+    /* RADAR SECTION */
+    .radar-interactive-board {
+      background: linear-gradient(145deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.6));
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 16px;
+      padding: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      align-items: center;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(12px);
+      margin-bottom: 50px;
+    }
+
+    @media (max-width: 900px) {
+      .radar-interactive-board {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .radar-svg-container {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      margin: 0 auto;
+      aspect-ratio: 1;
+    }
+
+    .radar-svg {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.35));
+    }
+
+    .oct-polygon-bg {
+      fill: rgba(14, 165, 233, 0.05);
+      stroke: rgba(56, 189, 248, 0.25);
+      stroke-width: 1.5;
+    }
+
+    .oct-polygon-active {
+      fill: rgba(168, 85, 247, 0.25);
+      stroke: #38bdf8;
+      stroke-width: 2.5;
+      filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.6));
+      transition: all 0.5s ease;
+    }
+
+    .radar-node {
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .radar-node:hover circle {
+      fill: #fbbf24;
+      r: 9;
+      filter: drop-shadow(0 0 12px #fbbf24);
+    }
+
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .pill-btn {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #94a3b8;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pill-btn:hover, .pill-btn.active {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: var(--neon-cyan);
+      color: #fff;
+      box-shadow: 0 0 15px rgba(6, 182, 212, 0.4);
+    }
+
+    .radar-desc-card {
+      background: rgba(10, 15, 29, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 24px;
+      border-left: 4px solid var(--gold);
+    }
+
+    /* 16:9 WIDESCREEN CINEMATIC CARDS - DIEGETIC FLOATING HOLOGRAM LAYOUT */
+    .posters-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .poster-16-9-card {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      min-height: 560px;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease, border-color 0.4s ease;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .poster-16-9-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 35px 80px rgba(0, 0, 0, 0.95), 0 0 40px var(--card-glow, rgba(56, 189, 248, 0.4));
+      border-color: var(--card-accent, #38bdf8);
+    }
+
+    .card-bg-full {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: brightness(0.97) contrast(1.04);
+      transition: transform 8s ease;
+      z-index: 1;
+    }
+
+    .poster-16-9-card:hover .card-bg-full {
+      transform: scale(1.025);
+    }
+
+    /* Top Floating Minimal Badges & Toggle Button */
+    .card-top-floating-bar {
+      position: absolute;
+      top: 18px;
+      left: 25px;
+      right: 25px;
+      z-index: 10;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      pointer-events: none;
+    }
+
+    .btn-toggle-hud {
+      pointer-events: auto;
+      background: rgba(0, 0, 0, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #f1f5f9;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      backdrop-filter: blur(10px);
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .btn-toggle-hud:hover {
+      background: var(--card-accent, #38bdf8);
+      color: #000;
+      box-shadow: 0 0 15px var(--card-glow, rgba(56, 189, 248, 0.6));
+    }
+
+    /* Diegetic Holographic HUD Panels (Ultra Translucent alpha=90, zero artwork text block) */
+    .diegetic-hud-container {
+      position: absolute;
+      inset: 0;
+      z-index: 5;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .diegetic-hud-container.hidden-hud {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+
+    .holo-panel {
+      pointer-events: auto;
+      width: 380px;
+      max-width: 32%;
+      background: rgba(6, 12, 24, 0.55);
+      border: 1px solid var(--card-accent, rgba(56, 189, 248, 0.5));
+      border-radius: 12px;
+      padding: 18px 20px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      position: relative;
+    }
+
+    .holo-panel::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+      background: var(--card-accent, #38bdf8);
+      border-radius: 12px 12px 0 0;
+      box-shadow: 0 0 10px var(--card-accent, #38bdf8);
+    }
+
+    @media (max-width: 900px) {
+      .diegetic-hud-container {
+        position: relative;
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+      }
+      .holo-panel {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .holo-badge-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .holo-proj-title {
+      font-size: 17px;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: 0.5px;
+      line-height: 1.25;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    }
+
+    .holo-quote {
+      background: rgba(0, 0, 0, 0.5);
+      border-left: 3px solid var(--card-accent, #38bdf8);
+      padding: 6px 10px;
+      border-radius: 0 4px 4px 0;
+      font-style: italic;
+      color: #f8fafc;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .holo-chip {
+      background: rgba(2, 6, 23, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 6px;
+      padding: 7px 10px;
+    }
+
+    .holo-chip-title {
+      font-size: 11px;
+      font-weight: 900;
+      color: var(--card-accent, #38bdf8);
+      margin-bottom: 2px;
+    }
+
+    .holo-chip-body {
+      font-size: 11.5px;
+      color: #cbd5e1;
+      line-height: 1.4;
+    }
+
+    .sop-vertical-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .sop-v-item {
+      background: rgba(2, 6, 23, 0.45);
+      border-left: 3px solid var(--card-accent, #38bdf8);
+      border-radius: 0 4px 4px 0;
+      padding: 5px 8px;
+      font-size: 11.5px;
+      color: #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .sop-v-num {
+      font-family: var(--hud-font);
+      font-size: 15px;
+      color: var(--card-accent, #38bdf8);
+      font-weight: 900;
+      margin-right: 6px;
+    }
+
+    /* Column 1: Info & Quote */
+    .hud-col-main {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .hud-proj-title {
+      font-size: 18px;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: 0.5px;
+      line-height: 1.25;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    }
+
+    .hud-eng-tag {
+      font-family: var(--eng-title-font);
+      font-size: 11px;
+      color: var(--card-accent, #38bdf8);
+      letter-spacing: 1.8px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .hud-quote-mini {
+      background: rgba(0, 0, 0, 0.55);
+      border-left: 3px solid var(--card-accent, #38bdf8);
+      padding: 8px 12px;
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+      color: #f8fafc;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    /* Column 2: Psychological & Mechanism */
+    .hud-col-details {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .hud-box-chip {
+      background: rgba(2, 6, 23, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 8px 12px;
+    }
+
+    .hud-chip-label {
+      font-size: 11.5px;
+      font-weight: 900;
+      color: var(--card-accent, #38bdf8);
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .hud-chip-text {
+      font-size: 12.5px;
+      color: #e2e8f0;
+      line-height: 1.45;
+    }
+
+    /* Column 3: 4-Step SOP */
+    .hud-col-sop {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .sop-mini-header {
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--gold-glow);
+      letter-spacing: 1.2px;
+    }
+
+    .sop-mini-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .sop-mini-card {
+      background: rgba(2, 6, 23, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 6px;
+      padding: 8px 6px;
+      border-top: 3px solid var(--card-accent, #38bdf8);
+      text-align: center;
+    }
+
+    .sop-mini-step {
+      font-family: var(--hud-font);
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--card-accent, #38bdf8);
+      line-height: 1;
+    }
+
+    .sop-mini-name {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-top: 4px;
+      line-height: 1.25;
+    }
+
+    /* Column 4: Gauge & Zoom Action */
+    .hud-col-action {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border-left: 1px solid rgba(255, 255, 255, 0.12);
+      padding-left: 18px;
+    }
+
+    .gauge-num {
+      font-family: var(--hud-font);
+      font-size: 38px;
+      line-height: 1;
+      color: var(--card-accent, #38bdf8);
+      letter-spacing: 1px;
+      text-shadow: 0 0 15px var(--card-glow, rgba(56, 189, 248, 0.6));
+    }
+
+    .gauge-label {
+      font-size: 11px;
+      color: #94a3b8;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    /* Modal for 16:9 Cinema Fullscreen */
+    .cinema-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(3, 7, 18, 0.95);
+      z-index: 1000;
+      backdrop-filter: blur(15px);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .cinema-modal.open {
+      display: flex;
+    }
+
+    .cinema-modal-box {
+      width: 92vw;
+      max-width: 1400px;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      border: 2px solid var(--neon-cyan);
+      box-shadow: 0 0 60px rgba(6, 182, 212, 0.6);
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 15px; right: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      border: 1px solid #f43f5e;
+      color: #f43f5e;
+      font-size: 20px;
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .modal-close-btn:hover {
+      background: #f43f5e;
+      color: #fff;
+      box-shadow: 0 0 20px #f43f5e;
+    }
+
+    .modal-img-preview {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- TOP PDF DOWNLOAD BAR -->
+    <div class="top-action-bar">
+      <div class="top-action-title">
+        <span>🎬 專案全套已編譯封裝完成</span>
+        <span style="font-size: 13px; color: var(--text-muted);">｜ 9 頁 16:9 劇場版海報 × 專屬背景已就緒</span>
+      </div>
+      <div class="top-btn-group">
+        <a href="八角神域_校園遊戲化_16x9電影海報資訊圖表全集.pdf" download class="btn-pdf">
+          📥 下載《電影海報資訊圖表全集.pdf》
+        </a>
+        <a href="八角神域_16x9劇場版純海報畫冊.pdf" download class="btn-pdf secondary">
+          🎨 下載《16:9 劇場版純海報畫冊.pdf》
+        </a>
+      </div>
+    </div>
+
+    <!-- 16:9 THEATRICAL CINEMATIC BANNER -->
+    <header class="theatrical-hero-container">
+      <img src="poster_16_9_main.jpg" alt="八角神域：學園覺醒傳說" class="theatrical-hero-bg">
+      <div class="theatrical-hero-overlay"></div>
+      
+      <div class="theatrical-hero-content">
+        <div>
+          <div class="hero-badge-row">
+            <span class="theatrical-badge">🎬 劇場版超絕企劃</span>
+            <span class="theatrical-badge alt">🏫 國中小學異能啟動</span>
+            <span class="theatrical-badge alt">16:9 CINEMATIC VISUAL</span>
+          </div>
+          <h1 class="hero-main-title">八角神域：<span>學園覺醒傳說</span></h1>
+          <p class="hero-sub-title">OCTALYSIS: THE SCHOLAR AWAKENING (THEATRICAL POSTER COLLECTION)</p>
+          <p class="hero-synopsis">
+            以周昱凱（Yu-kai Chou）八角行為設計架構為奧義基石！將晨讀、打掃、作業、同儕互助與自主探究，全面昇華為日系熱血劇場版電影海報級視覺化資訊圖表！
+          </p>
+        </div>
+
+        <div class="hero-action-panel">
+          <button class="btn-theatrical" onclick="playAnimeSfx(); window.print();">
+            🖨️ 列印 / 導出 16:9 海報
+          </button>
+          <div style="font-size: 12px; color: var(--text-muted); letter-spacing: 1px;">
+            週昱凱遊戲化理論授權 × 全國中小學實踐委託製作
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SECTION TITLE: OCTALYSIS RADAR & SPECS -->
+    <div class="section-title-wrap">
+      <div class="section-tag">MAGICAL MATRIX // 八角魔導陣核心</div>
+      <h2 class="section-h2">理論心流坐標與屬性解析</h2>
+    </div>
+
+    <!-- RADAR & FILTER INTERACTIVE BOARD -->
+    <div class="radar-interactive-board">
+      <div class="radar-svg-container">
+        <svg class="radar-svg" viewBox="0 0 400 400">
+          <polygon class="oct-polygon-bg" points="200,40 313,87 360,200 313,313 200,360 87,313 40,200 87,87" />
+          <polygon class="oct-polygon-bg" points="200,80 285,115 320,200 285,285 200,320 115,285 80,200 115,115" />
+          <polygon class="oct-polygon-bg" points="200,120 256,144 280,200 256,256 200,280 144,256 120,200 144,144" />
+          
+          <line x1="200" y1="40" x2="200" y2="360" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+          <line x1="40" y1="200" x2="360" y2="200" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+          <line x1="87" y1="87" x2="313" y2="313" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+          <line x1="313" y1="87" x2="87" y2="313" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+
+          <polygon id="radarActivePoly" class="oct-polygon-active" points="200,50 305,95 350,200 300,305 200,345 95,305 50,200 95,95" />
+
+          <g class="radar-node" onclick="focusCard('cd1')">
+            <circle cx="200" cy="50" r="6" fill="#10b981" />
+            <text x="200" y="32" fill="#10b981" font-size="12" font-weight="900" text-anchor="middle">CD1 使命呼召</text>
+          </g>
+          <g class="radar-node" onclick="focusCard('cd2')">
+            <circle cx="305" cy="95" r="6" fill="#38bdf8" />
+            <text x="325" y="90" fill="#38bdf8" font-size="12" font-weight="900" text-anchor="start">CD2 進步成就</text>
+          </g>
+          <g class="radar-node" onclick="focusCard('cd3')">
+            <circle cx="350" cy="200" r="6" fill="#f97316" />
+            <text x="365" y="204" fill="#f97316" font-size="12" font-weight="900" text-anchor="start">CD3 創意回饋</text>
+          </g>
+          <g class="radar-node" onclick="focusCard('cd5')">
+            <circle cx="300" cy="305" r="6" fill="#06b6d4" />
+            <text x="320" y="320" fill="#06b6d4" font-size="12" font-weight="900" text-anchor="start">CD5 社交同理</text>
+          </g>
+          <g class="radar-node" onclick="focusCard('cd8')">
+            <circle cx="200" cy="345" r="6" fill="#ef4444" />
+            <text x="200" y="375" fill="#ef4444" font-size="12" font-weight="900" text-anchor="middle">CD8 虧損避免</text>
+          </g>
+          <g class="radar-node" onclick="focusCard('cd7')">
+            <circle cx="95" cy="305" r="6" fill="#ec4899" />
+            <text x="80" y="320" fill="#ec4899" font-size="12" font-weight="900" text-anchor="end">CD7 未知好奇</text>
+          </g>
+          <g class="radar-node" onclick="focusCard('cd4')">
+            <circle cx="50" cy="200" r="6" fill="#a855f7" />
+            <text x="35" y="204" fill="#a855f7" font-size="12" font-weight="900" text-anchor="end">CD4 所有權</text>
+          </g>
+          <g class="radar-node" onclick="focusCard('cd6')">
+            <circle cx="95" cy="95" r="6" fill="#f59e0b" />
+            <text x="75" y="90" fill="#f59e0b" font-size="12" font-weight="900" text-anchor="end">CD6 稀缺渴望</text>
+          </g>
+        </svg>
+      </div>
+
+      <div>
+        <div class="filter-pills">
+          <button class="pill-btn active" onclick="filterHat('all', this)">⚡ 全陣列顯現</button>
+          <button class="pill-btn" onclick="filterHat('white', this)">🕊️ 白帽正向賦能 (CD1,2,3)</button>
+          <button class="pill-btn" onclick="filterHat('black', this)">🔥 黑帽緊迫驅動 (CD6,7,8)</button>
+          <button class="pill-btn" onclick="filterHat('left', this)">🧠 左腦功利累積 (CD2,4,6)</button>
+          <button class="pill-btn" onclick="filterHat('right', this)">🎨 右腦自主樂趣 (CD3,5,7)</button>
+        </div>
+
+        <div class="radar-desc-card" id="radarDescBox">
+          <div class="desc-header">
+            <div class="desc-cd-tag">OCTALYSIS SYSTEM</div>
+            <span class="theatrical-badge alt">周昱凱行為設計學</span>
+          </div>
+          <div class="desc-title">八大核心驅動力：光影平衡原則</div>
+          <div class="desc-body">
+            白帽遊戲化（頂層）帶給學生掌控感、崇高感與自我超越，建立持續一生的自主學習熱情；黑帽遊戲化（底層）注入急迫感、稀缺性與危機感，能在短時間內破除拖延。<br><br>
+            國中小教育現場之黃金配置為：<strong>70% 白帽賦能 ＋ 30% 黑帽調味</strong>，既燃起熱血，亦不傷身心！每一頁皆配備專屬 16:9 電影背景與資訊圖表。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION TITLE: 16:9 POSTER GALLERY -->
+    <div class="section-title-wrap">
+      <div class="section-tag">THEATRICAL GALLERY // 16:9 劇場版海報資訊圖表館</div>
+      <h2 class="section-h2">八大核心驅動力 × 專屬 16:9 背景海報巡禮</h2>
+    </div>
+
+    <!-- POSTERS GRID -->
+    <div class="posters-grid" id="postersGrid">
+
+      <!-- POSTER 01: CD1 -->
+      <article class="poster-16-9-card" id="cd1" data-hat="white" data-brain="right" style="--card-accent: #10b981; --card-glow: rgba(16, 185, 129, 0.5);">
+        <img src="poster_cd1.jpg" alt="滅亡倒數！守護蒼翠聖域之戰" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#10b981; box-shadow:0 0 15px rgba(16,185,129,0.5);">CD1 : EPIC MEANING</span>
+            <span class="theatrical-badge alt" style="border-color:#10b981; color:#10b981;">白帽頂層 ｜ 內在動機</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd1', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd1">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">THE LAST SANCTUARY: GUARDIANS OF WORLD TREE</div>
+            <div class="hud-proj-title">【聖域淨化作戰：校園生態與減塑防衛隊】</div>
+            <div class="hud-quote-mini">「若你在此退縮，這座學園的蔚藍天空將沉入永夜！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">學生渴望參與超越個人的神聖偉業；深信自己是被命運選中的守護使者。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">校門口設立「全校結界靈力計」，堆肥與回收推進靈力值，全校享慶典特權。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">神諭受命</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">淨化分隊</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">靈力注滿</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">聖域慶典</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">95%</div>
+              <div class="gauge-label">使命召喚力</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_01_cd1.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- POSTER 02: CD2 -->
+      <article class="poster-16-9-card" id="cd2" data-hat="white" data-brain="left" style="--card-accent: #38bdf8; --card-glow: rgba(56, 189, 248, 0.5);">
+        <img src="poster_cd2.jpg" alt="超越極限！天梯登頂的修羅之路" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#38bdf8; color:#000; box-shadow:0 0 15px rgba(56,189,248,0.5);">CD2 : ACCOMPLISHMENT</span>
+            <span class="theatrical-badge alt" style="border-color:#38bdf8; color:#38bdf8;">白帽左側 ｜ 外在進階</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd2', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd2">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">ASCENSION: THE ENDLESS SPIRE OF MASTERY</div>
+            <div class="hud-proj-title">【百鍊封神錄：九階能力覺醒天梯榜】</div>
+            <div class="hud-quote-mini">「真正的強者，從不仰望神明，而是踏著自己的足跡封神！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">渴望克服挑戰、看見自我技能突破並解鎖里程碑印記的成就感。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">九階印記制度（黑鐵→秘銀→覺醒）；作業訂正與小考進步皆可烙印火漆章。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">授予卷軸</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">破關印記</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">挑戰魔王</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">階位登頂</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">92%</div>
+              <div class="gauge-label">成就達成感</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_02_cd2.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- POSTER 03: CD3 -->
+      <article class="poster-16-9-card" id="cd3" data-hat="white" data-brain="right" style="--card-accent: #f97316; --card-glow: rgba(249, 115, 22, 0.5);">
+        <img src="poster_cd3.jpg" alt="萬象鍊金！創世魔法陣狂想曲" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#f97316; box-shadow:0 0 15px rgba(249,115,22,0.5);">CD3 : CREATIVITY</span>
+            <span class="theatrical-badge alt" style="border-color:#f97316; color:#f97316;">白帽右側 ｜ 內在創造</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd3', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd3">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">ALCHEMICAL GENESIS: CREATION RHAPSODY</div>
+            <div class="hud-proj-title">【禁忌工坊：機關狂想自力發明週】</div>
+            <div class="hud-quote-mini">「這裡沒有標準答案！若公式束縛了你，就由你來改寫真理！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">賦予無限組合畫布，在自由嘗試、即時物理反饋中獲得創造的純粹欣喜。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">模組化零件自選＋教室前方試跑台；失敗獲解析數據，隨時返座改裝進化。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">禁忌配方</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">狂想組裝</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">擂台試射</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">迭代優化</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">98%</div>
+              <div class="gauge-label">創意賦能力</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_03_cd3.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- POSTER 04: CD4 -->
+      <article class="poster-16-9-card" id="cd4" data-hat="neutral" data-brain="left" style="--card-accent: #a855f7; --card-glow: rgba(168, 85, 247, 0.5);">
+        <img src="poster_cd4.jpg" alt="神域具現！領地支配者的秘密契約" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#a855f7; box-shadow:0 0 15px rgba(168,85,247,0.5);">CD4 : OWNERSHIP</span>
+            <span class="theatrical-badge alt" style="border-color:#a855f7; color:#c084fc;">偏左腦 ｜ 價值累積</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd4', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd4">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">DOMINION: SOUL FAMILIAR & SOVEREIGN REALM</div>
+            <div class="hud-proj-title">【靈魂使魔殿堂：班級守護獸與個人魔導書】</div>
+            <div class="hud-quote-mini">「刻上吾之真名之刻，此地即為神聖不可侵犯之永恆領域！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">當人們客製並完全擁有某物，便會產生極強烈的守護與自我增值慾望。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">開學領養使魔蛋；札記獲以太晶石，兌換領地銘牌、配飾與班級獸進化。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">靈魂契約</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">領地開闢</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">晶石餵養</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">守護獸覺醒</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">88%</div>
+              <div class="gauge-label">領地支配力</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_04_cd4.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- POSTER 05: CD5 -->
+      <article class="poster-16-9-card" id="cd5" data-hat="neutral" data-brain="right" style="--card-accent: #06b6d4; --card-glow: rgba(6, 182, 212, 0.5);">
+        <img src="poster_cd5.jpg" alt="星火共鳴！絕不放手的羈絆同盟" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#06b6d4; box-shadow:0 0 15px rgba(6,182,212,0.5);">CD5 : SOCIAL INFLUENCE</span>
+            <span class="theatrical-badge alt" style="border-color:#06b6d4; color:#22d3ee;">偏右腦 ｜ 社交羈絆</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd5', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd5">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">RESONANCE: BONDS ACROSS THE DIVIDED SKY</div>
+            <div class="hud-proj-title">【公會共鬥討伐戰：雙人連攜學伴結界】</div>
+            <div class="hud-quote-mini">「背後就交給我吧！一人倒下，全隊的齒輪將由我親手轉動！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">渴望同儕接納、情感連結與團隊認同；師徒傳承帶來深刻利他愉悅感。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">組隊共鬥，弱項同學進步觸發隊伍暴擊加分；學長姐任引路賢者。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">公會結盟</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">誓言立約</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">連攜暴擊</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">賢者殿堂</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">94%</div>
+              <div class="gauge-label">同盟共鳴力</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_05_cd5.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- POSTER 06: CD6 -->
+      <article class="poster-16-9-card" id="cd6" data-hat="black" data-brain="left" style="--card-accent: #f59e0b; --card-glow: rgba(245, 158, 11, 0.5);">
+        <img src="poster_cd6.jpg" alt="幻影禁門！百年一遇的秘密借閱令" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#f59e0b; box-shadow:0 0 15px rgba(245,158,11,0.5);">CD6 : SCARCITY</span>
+            <span class="theatrical-badge alt" style="border-color:#f59e0b; color:#fbbf24;">黑帽底層 ｜ 稀缺渴望</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd6', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd6">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">THE PHANTOM THRESHOLD: RELICS OF FORBIDDEN</div>
+            <div class="hud-proj-title">【深淵禁書區：午休限定『皇家御座』通行令】</div>
+            <div class="hud-quote-mini">「唯有在月食交錯之瞬，真理之門方為執著之人敞開一線裂隙！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">得不到的永遠最珍貴；越是限量、越需付出等待，價值感越被放大。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">全勤閱讀心得者方可抽金色通行證；門口設立神秘倒數沙漏維持期待感。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">結界封印</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">鑄造金券</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">試煉爭奪</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">尊榮入閣</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">86%</div>
+              <div class="gauge-label">飢餓渴求度</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_06_cd6.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- POSTER 07: CD7 -->
+      <article class="poster-16-9-card" id="cd7" data-hat="black" data-brain="right" style="--card-accent: #ec4899; --card-glow: rgba(236, 72, 153, 0.5);">
+        <img src="poster_cd7.jpg" alt="命運輪盤！隨機觸發的第零號校園異聞" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#ec4899; box-shadow:0 0 15px rgba(236,72,153,0.5);">CD7 : UNPREDICTABILITY</span>
+            <span class="theatrical-badge alt" style="border-color:#ec4899; color:#f472b6;">黑帽底層 ｜ 未知好奇</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd7', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd7">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">ROULETTE OF FATE: THE ANOMALY ZERO PROTOCOL</div>
+            <div class="hud-proj-title">【校園異聞錄：每週隨機盲盒任務】</div>
+            <div class="hud-quote-mini">「你永遠無法預料，走廊下一個轉角迎來的，是恩賜還是試煉！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">對未知的渴望、開盲盒的腎上腺素飆升；隨機獎勵機制的強效牽引。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">角落神秘信封或QR碼，觸發向師長挑戰問答或尋找彩蛋，隨機抽刮刮卡。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">隨機布陣</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">觸發奇遇</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">轉動輪盤</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">驚喜掉落</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">90%</div>
+              <div class="gauge-label">驚喜心跳度</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_07_cd7.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- POSTER 08: CD8 -->
+      <article class="poster-16-9-card" id="cd8" data-hat="black" data-brain="left" style="--card-accent: #ef4444; --card-glow: rgba(239, 68, 68, 0.5);">
+        <img src="poster_cd8.jpg" alt="絕對防禦結界！連勝火種的終局保衛戰" class="card-bg-full">
+        
+        <div class="card-top-floating-bar">
+          <div class="top-badge-group">
+            <span class="theatrical-badge" style="background:#ef4444; box-shadow:0 0 15px rgba(239,68,68,0.5);">CD8 : LOSS & AVOIDANCE</span>
+            <span class="theatrical-badge alt" style="border-color:#ef4444; color:#f87171;">黑帽底層 ｜ 虧損避免</span>
+          </div>
+          <button class="btn-toggle-hud" onclick="toggleHud('hud-cd8', this)">👁️ 隱藏資訊框 (純享原畫)</button>
+        </div>
+
+        <div class="card-bottom-hud" id="hud-cd8">
+          <div class="hud-col-main">
+            <div class="hud-eng-tag">ABSOLUTE AEGIS: DEFENSE OF THE DYING FLAME</div>
+            <div class="hud-proj-title">【不滅聖火：全班連勝防禦陣線】</div>
+            <div class="hud-quote-mini">「警告！魔力核心即將冷卻！唯有全體同心，方能阻斷虛無深淵！」</div>
+          </div>
+
+          <div class="hud-col-details">
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 核心驅動心理本質</div>
+              <div class="hud-chip-text">痛恨既得成果付之一炬（損失厭惡）；群體責任感化為強大自律動能。</div>
+            </div>
+            <div class="hud-box-chip">
+              <div class="hud-chip-label">◆ 國中小學落地機制</div>
+              <div class="hud-chip-text">連續天數階梯；內建每週「鳳凰替身符」防範一人失誤被同儕霸凌。</div>
+            </div>
+          </div>
+
+          <div class="hud-col-sop">
+            <div class="sop-mini-header">⚡ 4步驟 SOP 流程</div>
+            <div class="sop-mini-grid">
+              <div class="sop-mini-card"><div class="sop-mini-step">1</div><div class="sop-mini-name">點燃聖火</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">2</div><div class="sop-mini-name">備妥替身</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">3</div><div class="sop-mini-name">階梯解鎖</div></div>
+              <div class="sop-mini-card"><div class="sop-mini-step">4</div><div class="sop-mini-name">狂歡慶祝</div></div>
+            </div>
+          </div>
+
+          <div class="hud-col-action">
+            <div>
+              <div class="gauge-num">89%</div>
+              <div class="gauge-label">防禦危機感</div>
+            </div>
+            <button class="btn-zoom" onclick="openCinemaModal('slide_08_cd8.jpg')">🔍 巨幕檢視</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- CINEMA MODAL FULLSCREEN -->
+  <div class="cinema-modal" id="cinemaModal" onclick="closeCinemaModal(event)">
+    <div class="cinema-modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close-btn" onclick="closeCinemaModal()">✕</button>
+      <img id="modalImgTag" src="" class="modal-img-preview" alt="Cinema Slide">
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC & AUDIO SYNTHESIS -->
+  <script>
+    function playAnimeSfx() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(587.33, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(1174.66, ctx.currentTime + 0.15);
+        gain.gain.setValueAtTime(0.18, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.25);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.25);
+      } catch(e) {}
+    }
+
+    function focusCard(id) {
+      playAnimeSfx();
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.style.transform = 'scale(1.02)';
+        el.style.boxShadow = '0 0 45px var(--card-accent, #38bdf8)';
+        setTimeout(() => {
+          el.style.transform = '';
+          el.style.boxShadow = '';
+        }, 1200);
+      }
+    }
+
+    function filterHat(type, btn) {
+      playAnimeSfx();
+      document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const cards = document.querySelectorAll('.poster-16-9-card');
+      const poly = document.getElementById('radarActivePoly');
+
+      cards.forEach(card => {
+        const hat = card.dataset.hat;
+        const brain = card.dataset.brain;
+
+        if (type === 'all') {
+          card.style.display = 'grid';
+        } else if (type === 'white') {
+          card.style.display = (hat === 'white') ? 'grid' : 'none';
+        } else if (type === 'black') {
+          card.style.display = (hat === 'black') ? 'grid' : 'none';
+        } else if (type === 'left') {
+          card.style.display = (brain === 'left') ? 'grid' : 'none';
+        } else if (type === 'right') {
+          card.style.display = (brain === 'right') ? 'grid' : 'none';
+        }
+      });
+
+      if (type === 'white') {
+        poly.setAttribute('points', '200,45 315,90 355,195 240,230 200,210 160,230 45,195 85,90');
+      } else if (type === 'black') {
+        poly.setAttribute('points', '200,200 240,170 200,200 305,310 200,355 90,310 80,200 90,90');
+      } else if (type === 'left') {
+        poly.setAttribute('points', '200,45 315,90 200,200 200,200 200,355 90,310 45,195 90,90');
+      } else if (type === 'right') {
+        poly.setAttribute('points', '200,45 200,200 355,195 305,310 200,355 200,200 200,200 200,200');
+      } else {
+        poly.setAttribute('points', '200,50 305,95 350,200 300,305 200,345 95,305 50,200 95,95');
+      }
+    }
+
+    function toggleHud(hudId, btn) {
+      playAnimeSfx();
+      const hud = document.getElementById(hudId);
+      if (hud) {
+        hud.classList.toggle('hidden-hud');
+        if (hud.classList.contains('hidden-hud')) {
+          btn.innerHTML = '👁️ 顯示資訊框';
+        } else {
+          btn.innerHTML = '👁️ 隱藏資訊框 (純享原畫)';
+        }
+      }
+    }
+
+    function openCinemaModal(imgFile) {
+      playAnimeSfx();
+      const modal = document.getElementById('cinemaModal');
+      const imgTag = document.getElementById('modalImgTag');
+      imgTag.src = imgFile;
+      modal.classList.add('open');
+    }
+
+    function closeCinemaModal() {
+      document.getElementById('cinemaModal').classList.remove('open');
+    }
+  </script>
+</body>
+</html>
